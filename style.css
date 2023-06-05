@@ -6,7 +6,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #d5bbb1;
+  background: #87bfff;
   height: 100vh;
 }
 .card {
@@ -33,7 +33,7 @@ main {
   > button {
     height: 55px;
     border-radius: 5px;
-    background: #d5bbb1;
+    background: #87bfff;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
@@ -42,7 +42,8 @@ main {
   }
   > button:hover {
     cursor: pointer;
-    background: #c5aba1;
+    background: #87bfff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.2);
   }
 }
 .card:hover {
@@ -69,6 +70,9 @@ main {
   }
   50% {
     transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.2),
+      0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px #87bfff, 0 0 70px #87bfff,
+      0 0 80px #87bfff, 0 0 100px #87bfff, 0 0 150px #87bfff;
   }
   100% {
     transform: scale(1);
